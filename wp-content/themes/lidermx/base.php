@@ -5,7 +5,9 @@ use Roots\Sage\Wrapper;
 
 ?>
 
+<!--Powered by: Neftali Acosta-->
 <!doctype html>
+<html lang="es-ES">
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>

@@ -10,3 +10,14 @@ Text Domain:        www.neftaliacosta.com
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+
+
+.topbar {
+	margin-top:10px;
+	border-top: 4px solid #E09C09;
+}
+
+.mymenu{
+	background-color: #202020;
+}
