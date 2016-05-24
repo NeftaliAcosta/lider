@@ -34,3 +34,14 @@ register_nav_menus( array(
 
 
 require_once('wp_bootstrap_navwalker.php');
+
+add_theme_support( 'site-logo' );
+
+$args = array(
+    'header-text' => array(
+        'site-title',
+        'site-description',
+    ),
+    'size' => 'medium',
+);
+add_theme_support( 'site-logo', $args );

@@ -18,5 +18,7 @@
   <link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/style.css">
   <!-- Latest compiled and minified JavaScript -->
   <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-1.12.4.min.js"></script> 
+ 
   <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
+
 </head>

@@ -24,6 +24,10 @@ use Roots\Sage\Wrapper;
       <div class="content row">
         <main class="main">
           <?php include Wrapper\template_path(); ?>
+		 
+		 
+		 
+		 
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar">
@@ -38,4 +42,6 @@ use Roots\Sage\Wrapper;
       wp_footer();
     ?>
   </body>
+  
+
 </html>

@@ -10,14 +10,40 @@ Text Domain:        www.neftaliacosta.com
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
-
-
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .topbar {
 	margin-top:10px;
 	border-top: 4px solid #E09C09;
 }
 
+.nmenu1{
+	max-width:100%;
+	
+}
 .mymenu{
-	background-color: #202020;
+	margin-top:10px;
+	background-color: #202020!important;
+
+    text-decoration: none;
+	color: #FFFFFF!important;
+	
+}
+.nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.myshadow{
+	border: 1px solid #ffffff!important;
+	/*-webkit-box-shadow: 2px 0px 5px -1px rgba(0,0,0,0.51);
+	-moz-box-shadow: 2px 0px 5px -1px rgba(0,0,0,0.51);
+	box-shadow: 2px 0px 5px -1px rgba(0,0,0,0.51);*/
 }
