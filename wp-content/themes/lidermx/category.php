@@ -10,7 +10,7 @@
 				$the_query = new WP_Query($args ); ?>
 				<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 				
-					<div clasS="col-xs-12 col-md-6 mycat">
+					<div clasS="col-xs-12 col-sm-6 col-md-6 mycat">
 						<a href="<?php echo get_permalink( $post->ID ); ?>">
 							<img src="<?php echo the_post_thumbnail_url( 'large' ); ?>" class="img-responsive mythumbnail">
 						</a>
@@ -19,6 +19,13 @@
 						<?php the_excerpt(); ?>
 					
 					</div>
+					<?php $i++; 
+						  if($i != 0 && $i % 2 == 0) { ?>
+					
+							<div class="clearfix"></div>
+
+						  <?php
+						   } ?>
 				
 					  					
 					<?php  

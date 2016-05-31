@@ -8,7 +8,7 @@
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
  
-<?php endwhile; ?>
+<?php endwhile; ?> 
 
 <div class="container"><br>
 	<div class="row">
@@ -75,16 +75,8 @@
 			<?php dynamic_sidebar('sidebar-primary'); ?>
 
 		</div>
-		
-		
-		
-		
-		
-		
-		
 	</div>
-	
-		<div class="row">
+
 				<?php
 			
 				$args= array( 
@@ -93,8 +85,14 @@
 				 );
 				 
 				$the_query = new WP_Query(  $args ); ?>
-				<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-					<div clasS="col-xs-12 col-md-4 mypost">
+				<?php while ($the_query -> have_posts()) : $the_query -> the_post();
+				if($i % 3 == 0) { ?> 
+				  <div class="row">
+
+				  <?php
+				  }
+				  ?>
+				  	<div clasS="col-xs-12 col-sm-4 col-md-4 col-lg-4 mypost">
 						<a href="<?php echo get_permalink( $post->ID ); ?>">
 							<img src="<?php echo the_post_thumbnail_url( 'large' ); ?>" class="img-responsive mythumbnail">
 						</a>
@@ -103,6 +101,15 @@
 						<?php the_excerpt(); ?>
 					
 					</div>
+					   <?php $i++; 
+						  if($i != 0 && $i % 3 == 0) { ?>
+							</div><!--/.row-->
+							<div class="clearfix"></div>
+
+						  <?php
+						   } ?>
+
+				
 					
 					<?php 
 					endwhile;
