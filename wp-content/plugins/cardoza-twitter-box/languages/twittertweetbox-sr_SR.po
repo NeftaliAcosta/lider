@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twittertweetbox Translation V1\n"
+"POT-Creation-Date: 2015-04-07 12:20-0000\n"
+"PO-Revision-Date: 2015-04-08 12:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: Vinoj Cardoza <contact@vinojcardoza.com>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../cardoza_twitter_profile.php:24
+msgid "Twitter Box"
+msgstr "Twitter Box"
+
+#: ../cardoza_twitter_profile.php:35
+msgid "Twitter Tweets Box"
+msgstr "Twitter Tweets Box"
+
+#: ../includes/cardoza_twitter_profile_forms.php:19
+msgid "Options saved."
+msgstr "Opcije sačuvane"
+
+#: ../includes/cardoza_twitter_profile_forms.php:25
+msgid "Twitter Box Options"
+msgstr "Twitter Box opcije"
+
+#: ../includes/cardoza_twitter_profile_forms.php:28
+msgid "General Settings"
+msgstr "Opšta podešavanja"
+
+#: ../includes/cardoza_twitter_profile_forms.php:32
+msgid "Title"
+msgstr "Naslov"
+
+#: ../includes/cardoza_twitter_profile_forms.php:36
+msgid "Title of the twitter box"
+msgstr "Naslov za twitter box"
+
+#: ../includes/cardoza_twitter_profile_forms.php:41
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: ../includes/cardoza_twitter_profile_forms.php:45
+msgid "Username for your twitter account"
+msgstr "Korisničko ime vašeg twitter naloga"
+
+#: ../includes/cardoza_twitter_profile_forms.php:50
+msgid "Widget ID"
+msgstr "ID Widget-a "
+
+#: ../includes/cardoza_twitter_profile_forms.php:54
+msgid ""
+"Widget ID from your twitter account - you can get this from the url of your "
+"widget"
+msgstr ""
+"ID Widget-a sa vašeg twitter naloga - možete ga videti sa url-a svog widget-"
+"a"
+
+#: ../includes/cardoza_twitter_profile_forms.php:58
+msgid "Width"
+msgstr "Širina"
+
+#: ../includes/cardoza_twitter_profile_forms.php:62
+msgid "Height"
+msgstr "Visina"
+
+#: ../includes/cardoza_twitter_profile_forms.php:66
+msgid "Links color"
+msgstr "Boja linkova"
+
+#: ../includes/cardoza_twitter_profile_forms.php:67
+msgid "Should be an hex value like #000"
+msgstr "Treba da bude hex vrednost, kao što je #000"
+
+#: ../includes/cardoza_twitter_profile_forms.php:70
+msgid "Theme"
+msgstr "Tema"
+
+#: ../includes/cardoza_twitter_profile_forms.php:74
+msgid "default"
+msgstr "podrazumevana"
+
+#: ../includes/cardoza_twitter_profile_forms.php:77
+msgid "dark"
+msgstr "tamna"
+
+#: ../includes/cardoza_twitter_profile_forms.php:83
+msgid "Update Options"
+msgstr "Opcije ažuriranja"

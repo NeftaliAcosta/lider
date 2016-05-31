@@ -1,0 +1,6 @@
+[16-Apr-2016 22:24:24 America/Mexico_City] PHP Warning:  require_once(/home/revista3/public_html/web/wp-includes/load.php): failed to open stream: No such file or directory in /home/revista3/public_html/web/wp-load.php on line 49
+[16-Apr-2016 22:24:24 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '/home/revista3/public_html/web/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/revista3/public_html/web/wp-load.php on line 49
+[30-May-2016 04:40:22 UTC] PHP Warning:  Missing argument 1 for get_category(), called in /home/revista3/public_html/web/wp-content/themes/lidermx/category.php on line 5 and defined in /home/revista3/public_html/web/wp-includes/category.php on line 90
+[30-May-2016 04:46:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/revista3/public_html/web/wp-content/themes/lidermx/category.php on line 13
+[30-May-2016 04:54:09 UTC] PHP Parse error:  syntax error, unexpected ''category'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/revista3/public_html/web/wp-content/themes/lidermx/category.php on line 8
+[30-May-2016 04:57:37 UTC] PHP Fatal error:  Call to undefined function getSettingsPageID() in /home/revista3/public_html/web/wp-content/themes/lidermx/category.php on line 8

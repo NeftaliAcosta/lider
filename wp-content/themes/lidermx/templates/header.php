@@ -1,4 +1,7 @@
-<header class="container-fluid banner ">
+<header class="container-fluid ">
+   <div class="container banner visible-sm visible-md visible-lg"><br>
+		<?php echo adrotate_ad(3); ?> 
+  </div>
   <div clas="myshadow">
  
 	<div class="mymenu topbar container">
@@ -13,6 +16,12 @@
 									  'walker' => new wp_bootstrap_navwalker())
 									);
 								?>
+								<form class="pull-right buscador" action="http://www.revistalidermexico.com/web/" method="get">
+									<input type="text" name="s" value="" placeholder="Buscar...">
+									<input type="submit" value="Buscar">
+								</form>
+
+	
 		</nav>
 		
 		

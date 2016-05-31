@@ -45,3 +45,43 @@ $args = array(
     'size' => 'medium',
 );
 add_theme_support( 'site-logo', $args );
+
+add_filter('excerpt_length', 'mqw_largo_excerpt');
+function mqw_largo_excerpt($largo) {
+           return 25;
+}
+
+add_filter( "the_excerpt", "add_class_to_excerpt" );
+function add_class_to_excerpt( $excerpt ) {
+    return str_replace('<p', '<p class="myexcerpt"', $excerpt);
+}
+
+
+
+// Cambiar texto de "read more"
+function wpdocs_excerpt_more( $more ) {
+    return sprintf( '... <br><a class="read-more myButton" href="%1$s">%2$s</a>',
+        get_permalink( get_the_ID() ),
+        __( 'Leer Más...', 'textdomain' )
+    );
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
+
+//Funcion para videos de youtube
+
+function shortcode_videoyoutube() {
+
+   
+	return '.';
+}
+add_shortcode('vyoutube', 'shortcode_videoyoutube');
+
+
+add_filter('vyoutube', 'shortcode_videoyoutube');
+
+
+
+
+
+

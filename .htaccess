@@ -2,11 +2,12 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /lider/
+RewriteBase /web/
 RewriteRule ^index\.php$ - [L]
+RewriteRule ^^oauthcallback/(.*)? /web/wp-content/plugins/appfbconnect/inc/oauthcallback.html [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /lider/index.php [L]
+RewriteRule . /web/index.php [L]
 </IfModule>
 
 # END WordPress
